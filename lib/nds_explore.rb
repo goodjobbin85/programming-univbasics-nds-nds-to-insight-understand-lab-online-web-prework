@@ -14,4 +14,4 @@ end
 
 pp directors_database
 
-puts directors_database[:name]
+puts directors_database[0][:name]
