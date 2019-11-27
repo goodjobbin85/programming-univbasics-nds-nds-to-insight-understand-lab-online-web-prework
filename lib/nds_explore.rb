@@ -9,9 +9,9 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  directors_database[0][:movies].each do |title| 
-    
-  end
+  i = 0 
+  while i < directors_database[0][:movies].count
+  directors_database[0][:movies]
 end
 
 pp directors_database 
