@@ -14,6 +14,6 @@ end
 
 pp directors_database
 
-directors_database[0][:movies].each |title| 
+directors_database[0][:movies].each do |title| 
   print title 
 end
