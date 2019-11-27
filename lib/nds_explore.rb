@@ -14,4 +14,6 @@ end
 
 pp directors_database
 
-puts directors_database[0][:movies][:title]
+directors_database[0][:movies].each |title| 
+  print title 
+end
